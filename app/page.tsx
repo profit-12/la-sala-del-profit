@@ -298,6 +298,197 @@ export default function LaSalaDelProfit() {
 </div>
   </div>
 </section>
+{/* SOBRE NOSOTROS */}
+<section className="max-w-7xl mx-auto px-6 py-20">
+  <div className="grid md:grid-cols-2 gap-12 items-center">
+</div>
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=1200&auto=format&fit=crop"
+        alt="Trading Academy"
+        className="rounded-[40px] shadow-2xl"
+      />
+    </div>
+
+    <div>
+      <span className="text-green-400 font-bold uppercase tracking-widest">
+        Sobre Nosotros
+      </span>
+
+      <h2 className="text-5xl font-extrabold mt-4 mb-6">
+        Construimos Traders Reales
+      </h2>
+
+      <p className="text-gray-300 text-lg mb-6">
+        En La Sala del Profit ayudamos a personas a desarrollar disciplina,
+        mentalidad y estrategias reales para crecer dentro del trading.
+      </p>
+
+      <p className="text-gray-400 mb-8">
+        Nuestra academia combina mentorías, sesiones en vivo y educación
+        profesional enfocada en resultados sostenibles.
+      </p>
+
+      <div className="flex gap-8">
+        <div>
+          <h3 className="text-4xl font-bold text-green-400">+500</h3>
+          <p className="text-gray-400">Alumnos</p>
+        </div>
+
+        <div>
+          <h3 className="text-4xl font-bold text-green-400">+120</h3>
+          <p className="text-gray-400">Mentorías</p>
+        </div>
+
+        <div>
+          <h3 className="text-4xl font-bold text-green-400">24/7</h3>
+          <p className="text-gray-400">Comunidad</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+{/* TESTIMONIOS */}
+<section className="bg-gradient-to-r from-black to-green-900/20 py-20 px-6">
+
+  <div className="max-w-7xl mx-auto">
+
+    <div className="text-center mb-16">
+      <h2 className="text-5xl font-bold mb-4">
+        Resultados de Nuestros Alumnos
+      </h2>
+
+      <p className="text-gray-400">
+        Historias reales de crecimiento y transformación.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+        <div className="text-4xl mb-4">⭐</div>
+
+        <p className="text-gray-300 mb-6">
+          “Aprendí desde cero y ahora tengo una estrategia clara y disciplina.”
+        </p>
+
+        <h3 className="font-bold text-green-400">
+          Carlos M.
+        </h3>
+      </div>
+
+      <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+        <div className="text-4xl mb-4">🚀</div>
+
+        <p className="text-gray-300 mb-6">
+          “Las mentorías en vivo me ayudaron muchísimo a entender el mercado.”
+        </p>
+
+        <h3 className="font-bold text-green-400">
+          Andrea P.
+        </h3>
+      </div>
+
+      <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+        <div className="text-4xl mb-4">📈</div>
+
+        <p className="text-gray-300 mb-6">
+          “Ahora opero con más confianza y gestión de riesgo profesional.”
+        </p>
+
+        <h3 className="font-bold text-green-400">
+          Miguel R.
+        </h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+{/* FAQ */}
+<section className="max-w-6xl mx-auto px-6 py-20">
+
+  <div className="text-center mb-16">
+    <h2 className="text-5xl font-bold mb-4">
+      Preguntas Frecuentes
+    </h2>
+
+    <p className="text-gray-400">
+      Resolvemos las dudas más comunes sobre nuestra academia.
+    </p>
+  </div>
+
+  <div className="space-y-6">
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+      <h3 className="text-2xl font-bold mb-3">
+        ¿Necesito experiencia para comenzar?
+      </h3>
+
+      <p className="text-gray-400">
+        No. Nuestra academia está diseñada para principiantes y traders avanzados.
+      </p>
+    </div>
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+      <h3 className="text-2xl font-bold mb-3">
+        ¿Las mentorías son en vivo?
+      </h3>
+
+      <p className="text-gray-400">
+        Sí. Realizamos sesiones en vivo y análisis de mercado constantemente.
+      </p>
+    </div>
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
+      <h3 className="text-2xl font-bold mb-3">
+        ¿Cómo puedo acceder a la comunidad VIP?
+      </h3>
+
+      <p className="text-gray-400">
+        Al adquirir cualquiera de nuestros planes premium tendrás acceso inmediato.
+      </p>
+    </div>
+
+  </div>
+</section>
+{/* MISION Y VISION */}
+<section className="max-w-7xl mx-auto px-6 py-20">
+
+  <div className="text-center mb-16">
+    <h2 className="text-5xl font-bold mb-4">
+      Nuestra Filosofía
+    </h2>
+
+    <p className="text-gray-400">
+      Los valores y objetivos que impulsan La Sala del Profit.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-10">
+
+    <div className="bg-white/5 border border-white/10 rounded-[40px] p-10">
+      <h3 className="text-3xl font-bold mb-4 text-green-400">
+        Nuestra Misión
+      </h3>
+
+      <p className="text-gray-300 text-lg leading-relaxed">
+        Nuestra misión es transformar la educación financiera y el trading en una oportunidad real de crecimiento para personas de todo el mundo, brindando herramientas, mentorías y estrategias profesionales que permitan desarrollar disciplina, mentalidad y resultados sostenibles en los mercados financieros.
+      </p>
+    </div>
+
+    <div className="bg-white/5 border border-white/10 rounded-[40px] p-10">
+      <h3 className="text-3xl font-bold mb-4 text-green-400">
+        Nuestra Visión
+      </h3>
+
+      <p className="text-gray-300 text-lg leading-relaxed">
+        Nuestra visión es convertirnos en una de las academias de trading más reconocidas a nivel internacional, formando una comunidad sólida de traders preparados, educados y enfocados en la libertad financiera a través del conocimiento y la innovación.
+      </p>
+    </div>
+
+  </div>
+</section>
+<footer className="border-t border-white/10 py-10 px-6 text-center text-gray-400"></footer>
       <footer className="border-t border-white/10 py-10 px-6 text-center text-gray-400">
         <h3 className="text-2xl font-bold text-white mb-2">LA SALA DEL PROFIT</h3>
         <p>Academia profesional de trading y educación financiera.</p>
