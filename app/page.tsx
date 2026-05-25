@@ -41,11 +41,12 @@ export default function LaSalaDelProfit() {
 
           <div className="flex justify-center">
             <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-[40px] p-8 shadow-2xl max-w-md w-full">
-              <img
-                src="https://images.unsplash.com/photo-1642543348745-77d0b7f1f1d6?q=80&w=1200&auto=format&fit=crop"
-                alt="Trading"
-                className="rounded-3xl mb-6 w-full h-72 object-cover"
-              />
+           <img
+  src="/trading.png"
+  alt="Trading"
+  className="w-full h-52 object-cover rounded-3xl mb-6"
+/>
+              
 
               <div className="space-y-4">
                 <div className="flex items-center justify-between bg-black/30 rounded-2xl px-5 py-4">
@@ -115,7 +116,7 @@ export default function LaSalaDelProfit() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
               <h3 className="text-2xl font-bold mb-4">Básico</h3>
-              <p className="text-5xl font-extrabold mb-6">€29</p>
+              <p className="text-5xl font-extrabold mb-6">$200</p>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li>✔ Curso Inicial</li>
                 <li>✔ Comunidad</li>
@@ -128,7 +129,7 @@ export default function LaSalaDelProfit() {
 
             <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
               <h3 className="text-2xl font-bold mb-4">Pro</h3>
-              <p className="text-5xl font-extrabold mb-6">€79</p>
+              <p className="text-5xl font-extrabold mb-6">$300</p>
               <ul className="space-y-3 mb-8">
                 <li>✔ Todo lo Básico</li>
                 <li>✔ Mentorías</li>
@@ -141,7 +142,7 @@ export default function LaSalaDelProfit() {
 
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
               <h3 className="text-2xl font-bold mb-4">Elite</h3>
-              <p className="text-5xl font-extrabold mb-6">€149</p>
+              <p className="text-5xl font-extrabold mb-6">$500</p>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li>✔ Acceso Total</li>
                 <li>✔ Trading en Vivo</li>
