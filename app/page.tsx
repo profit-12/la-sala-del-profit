@@ -1,5 +1,6 @@
 export default function LaSalaDelProfit() {
   return (
+    
     <div className="min-h-screen bg-black text-white font-sans">
       {/* HERO */}
       <section className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-green-900">
@@ -38,15 +39,35 @@ export default function LaSalaDelProfit() {
               </button>
             </div>
           </div>
+<section className="text-center py-32 text-white">
 
-          <div className="flex justify-center">
+  <h1 className="text-6xl font-extrabold mb-6">
+    Aprende Trading Real
+    <span className="text-green-400">
+      {" "}en Vivo
+    </span>
+  </h1>
+
+  <p className="text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
+    Únete a la comunidad VIP y aprende estrategias
+    profesionales operando todos los días.
+  </p>
+
+  <a href="#planes">
+    <button className="bg-green-500 hover:scale-105 transition-all px-10 py-4 rounded-2xl text-xl font-bold">
+      COMENZAR AHORA
+    </button>
+  </a>
+
+</section>
+          
+<div className="flex justify-center">
             <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-[40px] p-8 shadow-2xl max-w-md w-full">
            <img
-  src="/trading.png"
+  src="/trading.jpeg"
   alt="Trading"
   className="w-full h-52 object-cover rounded-3xl mb-6"
-/>
-              
+     />         
 
               <div className="space-y-4">
                 <div className="flex items-center justify-between bg-black/30 rounded-2xl px-5 py-4">
@@ -115,12 +136,15 @@ export default function LaSalaDelProfit() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold mb-4">INGRESO VIP</h3>
+              <h3 className="text-2xl font-bold mb-4">INGRESO A SALA  VIP</h3>
+              <p className="text-gray-300 mb-4">
+    Aprende  y opera todos los dias en vivo en la sesion de NEW YORK </p>
               <p className="text-5xl font-extrabold mb-6">$100</p>
               <ul className="space-y-3 text-gray-300 mb-8">
-                <li>✔ Curso Inicial</li>
+                <li>✔ Señales en vivo </li>
                 <li>✔ Comunidad</li>
-                <li>✔ Clases Grabadas</li>
+                <li>✔ Analisis 24/7</li>
+                <li>✔ Operaciones en vivo</li>
               </ul>
               <button className="w-full py-3 rounded-2xl bg-white text-black font-bold">
                 Elegir
@@ -128,12 +152,17 @@ export default function LaSalaDelProfit() {
             </div>
 
             <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-4">Pro</h3>
+              <h3 className="text-2xl font-bold mb-4">BOOTCAMP</h3>
+              <p className="text-gray-300 mb-4">
+    Aprende trading profesional paso a paso con mentorías,
+    señales VIP y soporte privado.
+  </p>
               <p className="text-5xl font-extrabold mb-6">$300</p>
               <ul className="space-y-3 mb-8">
-                <li>✔ herramientas para tu operativa </li>
+                <li>✔ Herramientas para tu operativa </li>
                 <li>✔ Mentorías</li>
                 <li>✔ Señales VIP</li>
+                <li>✔ Soporte basico </li>
               </ul>
               <button className="w-full py-3 rounded-2xl bg-black text-white font-bold">
                 Más Popular
@@ -141,12 +170,17 @@ export default function LaSalaDelProfit() {
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold mb-4">Elite</h3>
+              <h3 className="text-2xl font-bold mb-4">CURSO COMPLETO VIP</h3>
+              <p className="text-gray-300 mb-4">
+    Aprende trading profesional desde 0, FULL acompañamiento paso a paso con mentorías
+    exclusivas y soporte tecnico directo.
+  </p>
               <p className="text-5xl font-extrabold mb-6">$500</p>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li>✔ Acceso Total</li>
                 <li>✔ Trading en Vivo</li>
                 <li>✔ Soporte Privado</li>
+                <li>✔ Clases de refuerzo para asegurar tu avance</li>
               </ul>
               <button className="w-full py-3 rounded-2xl bg-white text-black font-bold">
                 Elegir
@@ -155,7 +189,21 @@ export default function LaSalaDelProfit() {
           </div>
         </div>
       </section>
+<section className="py-20 text-white">
+  <h2 className="text-4xl font-bold text-center mb-10">
+    ¿Qué aprenderás?
+  </h2>
 
+  <div className="max-w-3xl mx-auto bg-white/5 p-8 rounded-3xl">
+    <ul className="space-y-4 text-2xl">
+      <li>✓ Price Action</li>
+      <li>✓ Gestión de Riesgo</li>
+      <li>✓ Psicología</li>
+      <li>✓ Smart Money</li>
+      <li>✓ Scalping</li>
+    </ul>
+  </div>
+</section>
       {/* PAGOS */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="bg-gradient-to-br from-green-500/10 to-black border border-green-500/20 rounded-[40px] p-10 text-center shadow-2xl">
