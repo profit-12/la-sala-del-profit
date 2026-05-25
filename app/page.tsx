@@ -125,7 +125,70 @@ export default function LaSalaDelProfit() {
           </div>
         </div>
       </section>
+{/* INDICADORES Y ALGORITMOS */}
+<section className="max-w-7xl mx-auto px-6 py-20">
+  <div className="text-center mb-16">
+    <h2 className="text-4xl font-bold mb-4">
+      Conoce Nuestros Indicadores y Algoritmos Automatizados
+    </h2>
 
+    <p className="text-gray-400 max-w-3xl mx-auto text-lg">
+      Herramientas avanzadas diseñadas para detectar oportunidades
+      de entrada, confirmar tendencias y mejorar la precisión
+      de tus operaciones.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-8">
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-xl">
+      <h3 className="text-2xl font-bold mb-4">
+        INDICADORES
+      </h3>
+
+
+      <ul className="space-y-3 text-gray-300">
+        <li>✓ Liquidez</li>
+        <li>✓ Order Blocks</li>
+        <li>✓ Market Structure</li>
+      </ul>
+    </div>
+
+    <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
+      <h3 className="text-2xl font-bold mb-4">
+        ALGORITMOS AUTOMATIZADOS 
+      </h3>
+
+      <p className="mb-6">
+        
+      </p>
+
+      <ul className="space-y-3 font-medium">
+        <li>✓ Señales automáticas</li>
+        <li>✓ Alertas en vivo</li>
+        <li>✓ Confirmaciones precisas</li>
+      </ul>
+    </div>
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-xl">
+      <h3 className="text-2xl font-bold mb-4">
+        TRADING PROFESIONAL 
+      </h3>
+
+      <p className="text-gray-300 mb-6">
+        Aprende a utilizar herramientas profesionales utilizadas
+        por traders consistentes.
+      </p>
+
+      <ul className="space-y-3 text-gray-300">
+        <li>✓ Scalping</li>
+        <li>✓ Price Action</li>
+        <li>✓ Gestión de riesgo</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
       {/* PLANES */}
       <section className="bg-gradient-to-r from-green-900/20 to-black py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
@@ -345,6 +408,29 @@ export default function LaSalaDelProfit() {
     Productor Administrativo
   </p>
 </div>
+  </div>
+</section>
+{/* CALIFICACIÓN */}
+<section className="max-w-7xl mx-auto px-6 py-20">
+  <div className="bg-white/5 border border-white/10 rounded-3xl p-10 text-center backdrop-blur-xl">
+
+    <h2 className="text-4xl font-bold mb-4">
+      Calificación de Nuestros Traders
+    </h2>
+
+    <div className="flex justify-center text-yellow-400 text-5xl mb-6">
+      ★★★★★
+    </div>
+
+    <p className="text-2xl font-bold mb-2">
+      4.9 / 5
+    </p>
+
+    <p className="text-gray-400 max-w-2xl mx-auto">
+      Más de 500 traders satisfechos operando diariamente
+      con nuestra comunidad, mentorías y algoritmos automatizados.
+    </p>
+
   </div>
 </section>
 {/* SOBRE NOSOTROS */}
