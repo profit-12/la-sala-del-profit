@@ -115,8 +115,8 @@ export default function LaSalaDelProfit() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold mb-4">Básico</h3>
-              <p className="text-5xl font-extrabold mb-6">$200</p>
+              <h3 className="text-2xl font-bold mb-4">INGRESO VIP</h3>
+              <p className="text-5xl font-extrabold mb-6">$100</p>
               <ul className="space-y-3 text-gray-300 mb-8">
                 <li>✔ Curso Inicial</li>
                 <li>✔ Comunidad</li>
@@ -131,7 +131,7 @@ export default function LaSalaDelProfit() {
               <h3 className="text-2xl font-bold mb-4">Pro</h3>
               <p className="text-5xl font-extrabold mb-6">$300</p>
               <ul className="space-y-3 mb-8">
-                <li>✔ Todo lo Básico</li>
+                <li>✔ herramientas para tu operativa </li>
                 <li>✔ Mentorías</li>
                 <li>✔ Señales VIP</li>
               </ul>
