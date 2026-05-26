@@ -34,7 +34,7 @@ export default function LaSalaDelProfit() {
                 Empezar Ahora
               </button>
 
-              <button className="border border-white/20 hover:border-green-400 transition px-8 py-4 rounded-2xl font-bold">
+              <button className="bg-green-500 hover:scale-105 hover:bg-green-400 transition-all duration-300 shadow-lg shadow-green-500/50 px-8 py-4 rounded-2xl">
                 Ver Cursos
               </button>
             </div>
@@ -631,3 +631,4 @@ export default function LaSalaDelProfit() {
     </div>
   )
 }
+ss
