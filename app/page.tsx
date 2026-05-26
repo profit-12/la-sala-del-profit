@@ -223,6 +223,34 @@ export default function LaSalaDelProfit() {
     </div>
   </div>
 </section>
+<section className="py-24 bg-black text-white">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="text-center mb-12">
+      <h2 className="text-5xl font-bold mb-4">
+        Mercado en Tiempo Real
+      </h2>
+
+      <p className="text-gray-400 text-lg">
+        Analiza el mercado con gráficos profesionales en vivo.
+      </p>
+    </div>
+
+    <div className="rounded-3xl overflow-hidden border border-green-500/20 shadow-2xl">
+
+      <iframe
+        src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_widget&symbol=BINANCE:BTCUSDT&interval=1H&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=000000&theme=dark&style=1&timezone=Etc/UTC&withdateranges=1&hidevolume=0&hideideas=1"
+        width="100%"
+        height="700"
+        allowTransparency={true}
+      ></iframe>
+
+    </div>
+
+  </div>
+
+</section>
       {/* PLANES */}
       <section className="bg-gradient-to-r from-green-900/20 to-black py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
