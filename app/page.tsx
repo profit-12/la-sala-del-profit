@@ -209,9 +209,15 @@ export default function LaSalaDelProfit() {
                 <li>✔ Analisis 24/7</li>
                 <li>✔ Operaciones en vivo</li>
               </ul>
-              <button className="w-full py-3 rounded-2xl bg-white text-black font-bold">
-                Elegir
-              </button>
+             <a
+  href="https://buy.stripe.com/00waEX4oGdExbq1bH35kk00"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
+    Elegir
+  </button>
+</a>
             </div>
 
             <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
