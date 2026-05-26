@@ -189,6 +189,40 @@ export default function LaSalaDelProfit() {
 
   </div>
 </section>
+<section className="py-20 bg-black overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6 text-center">
+
+    <h2 className="text-5xl font-bold mb-6 text-white">
+      Mercado En Vivo
+    </h2>
+
+    <p className="text-gray-400 mb-14 text-lg">
+      Movimiento real del mercado financiero
+    </p>
+
+    <div className="relative h-[400px] rounded-3xl border border-green-500/20 bg-white/5 backdrop-blur-xl overflow-hidden">
+
+      <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_#22c55e,_transparent_70%)]"></div>
+
+      <div className="flex items-end h-full gap-2 px-10 pb-10 animate-pulse">
+
+        <div className="w-6 h-32 bg-green-500 rounded-t-full"></div>
+        <div className="w-6 h-20 bg-red-500 rounded-t-full"></div>
+        <div className="w-6 h-40 bg-green-500 rounded-t-full"></div>
+        <div className="w-6 h-28 bg-green-400 rounded-t-full"></div>
+        <div className="w-6 h-52 bg-red-500 rounded-t-full"></div>
+        <div className="w-6 h-36 bg-green-500 rounded-t-full"></div>
+        <div className="w-6 h-60 bg-green-400 rounded-t-full"></div>
+        <div className="w-6 h-24 bg-red-400 rounded-t-full"></div>
+        <div className="w-6 h-44 bg-green-500 rounded-t-full"></div>
+        <div className="w-6 h-72 bg-green-400 rounded-t-full"></div>
+        <div className="w-6 h-48 bg-red-500 rounded-t-full"></div>
+        <div className="w-6 h-56 bg-green-500 rounded-t-full"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
       {/* PLANES */}
       <section className="bg-gradient-to-r from-green-900/20 to-black py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
