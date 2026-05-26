@@ -257,9 +257,15 @@ export default function LaSalaDelProfit() {
                 <li>✔ Soporte Privado</li>
                 <li>✔ Clases de refuerzo para asegurar tu avance</li>
               </ul>
-              <button className="w-full py-3 rounded-2xl bg-white text-black font-bold">
-                Elegir
-              </button>
+     <a
+  href="https://buy.stripe.com/00wbJ1cVc7g951D9yV5kk02"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
+    Elegir
+  </button>
+</a>
             </div>
           </div>
         </div>
