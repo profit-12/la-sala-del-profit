@@ -233,9 +233,15 @@ export default function LaSalaDelProfit() {
                 <li>✔ Señales VIP</li>
                 <li>✔ Soporte basico </li>
               </ul>
-              <button className="w-full py-3 rounded-2xl bg-black text-white font-bold">
-                Más Popular
-              </button>
+  <a
+  href="https://buy.stripe.com/9B66oHbR843X79L7qN5kk01"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
+    Elegir
+  </button>
+</a>
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
