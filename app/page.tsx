@@ -279,6 +279,11 @@ export default function LaSalaDelProfit() {
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
+  <a href="/vip">
+  <button className="w-full mt-4 py-3 rounded-2xl border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition">
+    Ver Contenido
+  </button>
+</a>
 </a>
             </div>
 
