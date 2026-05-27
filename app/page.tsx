@@ -304,10 +304,11 @@ export default function LaSalaDelProfit() {
   href="https://buy.stripe.com/9B66oHbR843X79L7qN5kk01"
   target="_blank"
   rel="noopener noreferrer"
->
+><a href="/bootcamp">
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
+  </a>
   
 
 
