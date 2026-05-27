@@ -1,0 +1,7 @@
+export default function BootcampPage() {
+  return (
+    <div>
+      <h1>Bootcamp</h1>
+    </div>
+  )
+}
