@@ -308,6 +308,13 @@ export default function LaSalaDelProfit() {
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
+  <button className="w-full bg-white text-black py-3 rounded-xl font-bold">
+  Elegir
+</button>
+
+<button className="w-full border border-green-500 text-green-500 py-3 rounded-xl mt-3">
+  Ver Contenido
+</button>
 </a>
             </div>
 
@@ -332,6 +339,13 @@ export default function LaSalaDelProfit() {
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
+  <button className="w-full bg-white text-black py-3 rounded-xl font-bold">
+  Elegir
+</button>
+
+<button className="w-full border border-green-500 text-green-500 py-3 rounded-xl mt-3">
+  Ver Contenido
+</button>
 </a>
             </div>
           </div>
