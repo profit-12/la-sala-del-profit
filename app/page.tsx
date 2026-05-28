@@ -475,6 +475,23 @@ export default function LaSalaDelProfit() {
   </p>
 </div>
 
+<div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
+  
+  <img
+    src="https://i.ibb.co/jPwyw0Np/IMG-20260528-WA0110.jpg"
+    alt="Willian Ramos"
+    className="w-28 h-28 rounded-full mx-auto mb-4 object-cover border-4 border-green-500"
+  />
+
+  <h3 className="text-2xl font-bold">
+    William Ramos 
+  </h3>
+
+  <p className="text-green-400 font-semibold mt-2">
+    Manager 
+  </p>
+</div> 
+
     <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
      <img
     src="https://i.ibb.co/WpfT07vg/IMG-20260520-WA0002.jpg"
