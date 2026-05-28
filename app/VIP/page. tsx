@@ -1,7 +1,30 @@
+import Image from "next/image";
+
 export default function Page() {
   return (
-    <div>
-      <h1>Página en construcción</h1>
+    <div className="min-h-screen bg-black flex items-center justify-center p-6">
+      <div className="max-w-5xl w-full bg-zinc-900 rounded-3xl overflow-hidden shadow-2xl border border-zinc-800">
+        
+        <Image
+          src="/imagenes/bienvenida de sala vip.jpeg"
+          alt="Bienvenida VIP"
+          width={1400}
+          height={800}
+          className="w-full h-auto"
+        />
+
+        <div className="p-10 text-center">
+          <h1 className="text-5xl font-bold text-white mb-4">
+            Bienvenido a la Sala VIP
+          </h1>
+
+          <p className="text-zinc-400 text-lg">
+            Accede a señales premium, análisis en tiempo real,
+            mentorías privadas y contenido exclusivo.
+          </p>
+        </div>
+
+      </div>
     </div>
-  )
+  );
 }
