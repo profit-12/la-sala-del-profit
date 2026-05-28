@@ -458,23 +458,6 @@ export default function LaSalaDelProfit() {
   </p>
 </div>
 
-    <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
-  
-  <img
-    src="https://i.ibb.co/QFyWZ9ZR/IMG-20260520-WA0001.jpg"
-    alt="Enzo Pabon"
-    className="w-28 h-28 rounded-full mx-auto mb-4 object-cover border-4 border-green-500"
-  />
-
-  <h3 className="text-2xl font-bold">
-    Enzo pabon 
-  </h3>
-
-  <p className="text-green-400 font-semibold mt-2">
-    Mentor
-  </p>
-</div>
-
 <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
   
   <img
@@ -492,6 +475,41 @@ export default function LaSalaDelProfit() {
   </p>
 </div> 
 
+<div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
+  <img
+    src="https://i.ibb.co/xtKT3qCZ/IMG-20260518-WA0005.jpg"
+    alt="Alejandro Bermudez"
+    className="w-28 h-28 rounded-full mx-auto mb-4 object-cover border-4 border-green-500"
+  />
+
+  <h3 className="text-2xl font-bold">
+    Alejandro Bermudez
+  </h3>
+
+  <p className="text-green-400 font-semibold mt-2">
+    Productor Administrativo
+  </p>
+</div>
+
+    <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
+  
+  <img
+    src="https://i.ibb.co/QFyWZ9ZR/IMG-20260520-WA0001.jpg"
+    alt="Enzo Pabon"
+    className="w-28 h-28 rounded-full mx-auto mb-4 object-cover border-4 border-green-500"
+  />
+
+  <h3 className="text-2xl font-bold">
+    Enzo pabon 
+  </h3>
+
+  <p className="text-green-400 font-semibold mt-2">
+    Mentor
+  </p>
+</div>
+
+
+
     <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
      <img
     src="https://i.ibb.co/WpfT07vg/IMG-20260520-WA0002.jpg"
@@ -508,21 +526,7 @@ export default function LaSalaDelProfit() {
   </p>
 </div>
 
-    <div className="bg-white/5 border border-white/10 rounded-3xl p-8 text-center hover:scale-105 transition duration-300">
-  <img
-    src="https://i.ibb.co/xtKT3qCZ/IMG-20260518-WA0005.jpg"
-    alt="Alejandro Bermudez"
-    className="w-28 h-28 rounded-full mx-auto mb-4 object-cover border-4 border-green-500"
-  />
 
-  <h3 className="text-2xl font-bold">
-    Alejandro Bermudez
-  </h3>
-
-  <p className="text-green-400 font-semibold mt-2">
-    Productor Administrativo
-  </p>
-</div>
   </div>
 </section>
 {/* CALIFICACIÓN */}
