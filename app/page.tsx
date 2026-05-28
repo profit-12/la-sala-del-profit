@@ -288,7 +288,7 @@ export default function LaSalaDelProfit() {
             </div>
 
             <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
-              <h3 className="text-2xl font-bold mb-4">BOOTCAMP</h3>
+              <h3 className="text-2xl font-bold mb-4">BOOTCAMP VIP</h3>
               <p className="text-gray-300 mb-4">
     Aprende trading profesional paso a paso con mentorías,
     señales VIP y soporte privado.
@@ -304,13 +304,13 @@ export default function LaSalaDelProfit() {
   href="https://buy.stripe.com/9B66oHbR843X79L7qN5kk01"
   target="_blank"
   rel="noopener noreferrer"
-><a href="/BOOTCAMP">
+><a href="/BOOTCAMP VIP">
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
   </a>
   <a
-href="/bootcamp"
+href="/BOOTCAMP VIP"
 className="block mt-4"
 >
 <button className="w-full py-3 rounded-2xl border border-green-500 text-green-400 font-bold hover:bg-green-500 hover:text-black transition">
