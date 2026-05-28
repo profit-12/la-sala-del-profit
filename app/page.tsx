@@ -484,11 +484,11 @@ export default function LaSalaDelProfit() {
   />
 
   <h3 className="text-2xl font-bold">
-    William Ramos 
+    Willian Ramos
   </h3>
 
   <p className="text-green-400 font-semibold mt-2">
-    Manager 
+    Project Manager
   </p>
 </div> 
 
