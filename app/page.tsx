@@ -243,7 +243,7 @@ export default function LaSalaDelProfit() {
         src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_widget&symbol=BINANCE:BTCUSDT&interval=1H&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=000000&theme=dark&style=1&timezone=Etc/UTC&withdateranges=1&hidevolume=0&hideideas=1"
         width="100%"
         height="700"
-        allowTransparency={true}
+        
       ></iframe>
 
     </div>
@@ -271,20 +271,25 @@ export default function LaSalaDelProfit() {
                 <li>✔ Analisis 24/7</li>
                 <li>✔ Operaciones en vivo</li>
               </ul>
-             <a
+       <a
   href="https://buy.stripe.com/00waEX4oGdExbq1bH35kk00"
   target="_blank"
   rel="noopener noreferrer"
 >
-  <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
+  
+</a>
+<button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
+  
+
   <a href="/vip">
   <button className="w-full mt-4 py-3 rounded-2xl border border-green-400 text-green-400 hover:bg-green-400 hover:text-black transition">
     Ver Contenido
   </button>
 </a>
-</a>
+
+
             </div>
 
             <div className="bg-green-500 text-black rounded-3xl p-8 scale-105 shadow-2xl">
@@ -304,13 +309,13 @@ export default function LaSalaDelProfit() {
   href="https://buy.stripe.com/9B66oHbR843X79L7qN5kk01"
   target="_blank"
   rel="noopener noreferrer"
-><a href="/BOOTCAMP VIP">
+>
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
-  </a>
+</a>
   <a
-href="/BOOTCAMP VIP"
+href="/bootcamp"
 className="block mt-4"
 >
 <button className="w-full py-3 rounded-2xl border border-green-500 text-green-400 font-bold hover:bg-green-500 hover:text-black transition">
@@ -323,11 +328,11 @@ Ver contenido
 <button className="w-full border border-green-500 text-green-500 py-3 rounded-xl mt-3">
   Ver Contenido
 </button>
-</a>
+
             </div>
 
             <div className="bg-white/5 border border-white/10 rounded-3xl p-8">
-              <h3 className="text-2xl font-bold mb-4">CURSO COMPLETO VIP</h3>
+              <h3 className="text-2xl font-bold mb-4">curso completo vip</h3>
               <p className="text-gray-300 mb-4">
     Aprende trading profesional desde 0, FULL acompañamiento paso a paso con mentorías
     exclusivas y soporte tecnico directo.
@@ -347,12 +352,16 @@ Ver contenido
   <button className="w-full py-3 rounded-2xl bg-white text-black font-bold hover:scale-105 transition">
     Elegir
   </button>
-  
+  </a>
 
 
-<button className="w-full border border-green-500 text-green-500 py-3 rounded-xl mt-3">
-  Ver Contenido
-</button>
+<a
+  href="/curso-completo-VIP"
+  className="block"
+>
+  <button className="w-full border border-green-500 text-green-500 py-3 rounded-xl mt-3">
+    Ver Contenido
+  </button>
 </a>
             </div>
           </div>
